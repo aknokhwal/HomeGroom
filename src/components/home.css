@@ -1,0 +1,108 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden ;
+}
+#home{
+    height: 100dvh;
+    
+    /* background-size: 100% 100%;
+    background: linear-gradient(211deg, 
+    rgba(77, 182, 186, 1) 0%, 
+    rgba(89, 187, 191, 1) 10%, 
+    rgba(109, 192, 198, 1) 20%, 
+    rgba(125, 197, 204, 1) 30%, 
+    rgba(141, 202, 211, 1) 40%, 
+    rgba(156, 207, 217, 1) 50%, 
+    rgba(172, 213, 224, 1) 60%, 
+    rgba(206, 217, 229, 1) 75%, 
+    rgba(224, 222, 234, 1) 90%, 
+    rgb(0, 0, 0) 100%); */
+    animation: AnimationName 10s  infinite;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding: 200px 150px;
+    background: linear-gradient(340deg, #80dbf1, #edc0f2, #37bebe, #9ff39a, #e7deab);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
+
+.home-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-h {
+    font-size: 3.5rem;
+}
+
+.home-p{
+    font-size: 1.1rem;
+}
+
+.home-btn {
+    z-index: 1;
+    width: 130px;
+    font-size: 1.2rem;
+    box-shadow: 4px 4px #ffd900;
+    height: 50px;
+}
+.home-btn:hover {
+    background-color: transparent;
+}
+
+.image {
+    height: 400px;
+    position: relative;
+    left: 60%;
+    top: -40px;
+}
+
+.custom-shape-divider-bottom-1712202460 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1712202460 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 212px;
+}
+
+.custom-shape-divider-bottom-1712202460 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.other-components{
+    width: 80vw;
+    min-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,47 @@
+.sign {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin: 100px auto;
+    grid-gap: 10vw; 
+}
+.sign-img{
+    height: 450px;
+}
+.sign-div, .sign-div-form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-div {
+    padding: 10px;
+    width: 90%;
+    font-family: 'Poppins';
+    align-self: center;
+}
+.sign-div-h, .sign-div-p{
+    text-align: center;
+}
+.sign-div-p {
+    font-size: .9rem;
+}
+.sign-div-form {
+    padding: 0 9px;
+    font-size: .9rem;
+}
+.sign-btn{
+    width: 70%;
+    margin: 20px 0;
+    height: 40px;
+}
+
+.sign-div-form label {
+    padding-top: 12px;
+}
+.sign-div-form input {
+    border: none;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    padding: 12px 5px;
+}
+.sign-div-form input:focus:not(:placeholder-shown){
+    border: none;
+}

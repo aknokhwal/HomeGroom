@@ -1,0 +1,22 @@
+#services {
+    padding: 150px;
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#services h1{
+    color: var(--shadow-color);
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.services-image {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow:7px 7px var(--shadow-color);
+}
