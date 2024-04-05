@@ -1,0 +1,33 @@
+.worker-div{
+    width: 450px;
+    padding: 20px 50px;
+    margin: 90px auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--shadow-color);
+    box-shadow: 10px 10px black;
+    height: 80vh;
+}
+
+.Worker-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2px
+}
+.Worker-form p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.w-ratio-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Worker-form input {
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}

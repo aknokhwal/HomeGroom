@@ -1,12 +1,13 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
+import WhyTo from './Whyto.js';
 import { serviceData } from './data';
 import './book.css';
 
-const Book = () => {
+const Book = ({value}) => {
     return (
         <div>
-            <Navbar />
+            <Navbar value={value}/>
             <h1 className='service-h'>Book Your Service</h1>
             <div className='service-container'>
                 {serviceData.map(
@@ -22,6 +23,8 @@ const Book = () => {
                     </div>)
                 )}
             </div>
+            
+            <WhyTo />
             <Footer />
         </div>
     )

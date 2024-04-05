@@ -6,14 +6,16 @@ import Register from './Register';
 import ContactUs from './ContactUs';
 import Services from './Services';
 import Footer from './Footer';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,  } from 'react-router-dom';
+import { useState } from 'react';
 
-const Home = () => {
+const Home = ({value}) => {
     const navigate = useNavigate();
+
     return (
         <div>
         <section id='home'>
-            <Navbar />
+            <Navbar value={value}/>
             <div className='home-content'>
                 <div className='home-content-text'>
                     <h1 className='home-h roboto-medium'>Customer's <br/>Choice <br />HomeGroom</h1>
